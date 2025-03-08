@@ -4,9 +4,8 @@ import plotly
 import plotly.graph_objs as go
 import plotly.express as px
 from plotly.subplots import make_subplots
-
-train = pd.read_csv('titanic/train.csv')
-test = pd.read_csv('titanic/test.csv')
+train = pd.read_csv('./train.csv')
+test = pd.read_csv('./test.csv')
 
 x = ['Pclass', 'Name', 'Sex', 'Age', 'SibSp',
        'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
