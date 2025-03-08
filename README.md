@@ -1,3 +1,3 @@
 # streamlit-titanic
-homework on stepik course
-самый обычный датасет титаника
+## homework on stepik course 
+## самый обычный датасет титаника
